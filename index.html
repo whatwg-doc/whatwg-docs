@@ -38,13 +38,12 @@
                     url: mdUrl,
                     type: 'GET',
                     success:function (text) {
-                        var lexer;
 
                         text = marked(text);
 
                         var textWrapper = document.createElement('div'),
-                            navBar = document.createElement('div')
-                                ;
+                            navBar = document.createElement('div'),
+                            lexer;
 
                         textWrapper.classList.add('text')
                         textWrapper.innerHTML = text;
