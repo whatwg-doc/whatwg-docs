@@ -1,0 +1,58 @@
+.tb-basic {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #C5C5C5;
+  font: 12px/1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1";
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tb-basic thead tr td {
+  height: 26px;
+  border-bottom: 1px solid #C2C2C2;
+  padding: 0px 5px;
+  cursor: pointer;
+  background-color: #F8F8F8;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #efefef);
+  background-image: -ms-linear-gradient(top, #f8f8f8, #efefef);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#efefef));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #efefef);
+  background-image: -o-linear-gradient(top, #f8f8f8, #efefef);
+  background-image: linear-gradient(top, #f8f8f8, #efefef);
+  background-repeat: repeat-x;
+}
+.tb-basic thead tr td i {
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  line-height: 27px;
+  background: url("http://img01.taobaocdn.com/tps/i1/T1T1YhXhdsXXbMRU7.-14-12.jpg") no-repeat left top;
+}
+.tb-basic thead tr td:last-child {
+  border-right: 0px;
+}
+.tb-basic thead .desc i {
+  background: url("http://img04.taobaocdn.com/tps/i4/T1UE2lXo0fXXaJZUA_-11-12.jpg") no-repeat left top;
+}
+.tb-basic thead .asc i {
+  background: url("http://img01.taobaocdn.com/tps/i1/T1vpDnXeRfXXaJZUA_-11-12.jpg") no-repeat left top;
+}
+.tb-basic tbody tr td {
+  padding: 8px 5px 8px 14px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #f0f0f0;
+}
+.tb-basic tbody tr td:last-child {
+  border-right: 0px;
+}
+.tb-basic tbody tr:last-child td {
+  border-bottom: 0px;
+}
+.tb-basic tfoot tr td {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 14px;
+  height: 38px;
+}
+.hidden_param {
+  display: none;
+}
